@@ -1,0 +1,28 @@
+#header,
+.module caption,
+#changelist-filter h2,
+.module h2, 
+.module caption, 
+.inline-group h2,
+.selector-chosen h2 {
+    background: #446600 !important;
+}
+
+a:link,
+a:visited
+{
+    color: #00ff2f !important;
+}
+
+.breadcrumbs,
+.current-model,
+#changelist table tbody tr:has(input[type=checkbox]:checked),
+.submit-row input,
+.button.default, input[type=submit].default, .submit-row input.default{
+    background: #293e00 !important;
+}
+
+.submit-row a.deletelink{
+    background: yellow !important;
+    color: #293e00 !important;
+}

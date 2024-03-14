@@ -1,0 +1,85 @@
+Git распределенная система контроля версий.
+
+git --version - версия git
+git --help
+
+git init 
+- создание репозитория (только один раз)
+
+git status
+- состояние репозитория
+
+git add -A
+
+	-A, --all - все файлы, которые находятся в папке и подпапках
+	main.py - добавит main.py
+	. - добавит все файлы из текущей директории
+	
+	
+git config --global user.name 'new_name'
+git config --global user.name	
+	
+git config --global user.email 'test@mail.ru'	
+git config --global user.email 
+
+git commit -m "first commit"
+
+.gitignore
+
+git branch
+- просмотр веток
+
+git branch test
+- создать новую ветку
+
+git branch -D test
+- удалить ветку
+
+git branch readme
+
+git checkout readme
+- перейти на ветку
+
+git checkout -b new
+- создаем ветку и переходим на нее
+
+файл readme.md
+
+git checkout master
+
+master  =>  readme
+			+ readme.md	
+			
+git merge readme
+
+git branch -D readme
+
+
+git log
+
+Win + R => control
+
+Диспечер учетных данных
+Учетные данные Windows
+
+https://github.com
+
+git remote add origin https://github.com/Helen-prog/Python212.git
+
+git push -u origin master
+
+2517a02d56aaac7eab04560957e8088b209e8490
+
+==========
+git add .
+git commit -m "name_commit"
+git push
+==========
+
+https://github.com/Helen-prog/Python212/blob/master/main.py
+
+git clone https://github.com/Helen-prog/Python212.git
+
+git pull
+
+
